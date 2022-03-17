@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #151515;
+}
+section#global {
+  position: absolute;
+  width: 960px;
+  left: 50%;
+  margin-left: -480px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+header {
+  width: 920px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+nav {
+  width: 920px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #ccc;
+}
+article {
+  float: left;
+  width: 620px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+}
+aside {
+  float: right;
+  width: 270px;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+footer {
+  clear: both;
+  width: 920px;
+  margin: 10px;
+  padding: 10px;
+  color: #ccc;
+  background-color: #333;
+}
+header {
+  width: 920px;
+  height: 176px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  background-image: url(./img/w4.webp);
+  background-repeat: no-repeat;
+  line-height: 176px;
+}
+
+header h1 {
+  line-height: 176px;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+nav ul {
+  width: 920px;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #333;
+}
+
+nav ul :last-child {
+  border-right: none;
+}
+nav ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+article h2 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+article p {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 1em;
+  color: #000;
+  text-align: justify;
+}
+article p:first-of-type img {
+  float: left;
+  padding-right: 10px;
+}
+article p:last-of-type img {
+  float: right;
+  padding-left: 10px;
+}
+aside ul {
+  width: 240px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  list-style: none;
+}
+aside ul li {
+  display: inline;
+  width: 100px;
+}
+
+aside ul li img {
+  float: left;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+footer p {
+  text-align: right;
+}
