@@ -3,7 +3,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #151515;
+  background-color: #e29578;
+  font-family: "Josefin Sans", sans-serif;
 }
 section#global {
   position: absolute;
@@ -18,7 +19,7 @@ header {
   width: 920px;
   margin: 10px;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #e29578;
 }
 
 nav {
@@ -33,7 +34,6 @@ article {
   width: 620px;
   margin: 10px;
   padding: 10px;
-  background-color: #ccc;
 }
 aside {
   float: right;
@@ -41,7 +41,7 @@ aside {
   margin: 10px;
   margin-left: 0px;
   padding: 10px;
-  background-color: #ccc;
+  background-color: #83c5be;
 }
 
 footer {
@@ -49,16 +49,16 @@ footer {
   width: 920px;
   margin: 10px;
   padding: 10px;
-  color: #ccc;
-  background-color: #333;
+  color: #151515;
+  background-color: #edf6f9;
 }
 header {
   width: 920px;
   height: 176px;
   margin: 10px;
   padding: 10px;
-  background-color: #ccc;
-  background-image: url(./img/w4.webp);
+  background-color: #ffddd2;
+  /*background-image: url(./img/w4.webp);*/
   background-repeat: no-repeat;
   line-height: 176px;
 }
@@ -142,4 +142,47 @@ aside ul li img {
 }
 footer p {
   text-align: right;
+}
+.presentation {
+  background-image: url(./img/w4.webp);
+  background-repeat: no-repeat;
+  line-height: 176px;
+}
+.jackie h1 p {
+  float: left;
+}
+/* Le repositionnement des textes et des photos du sites*/
+
+
+.angela-davis {
+  display: flex;
+  background-color: #fcd5ce;
+}
+
+.col-left {
+  width: 60%;
+}
+
+
+
+
+
+.col-left img {
+  width: 80%;
+}
+
+.col-right {
+  width: 40%;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ccc;
+
+}
+
+
+
+.presentation{
+  font-size: 22px;
+  color: black;
 }
